@@ -27,20 +27,15 @@ Python 从入门到跑路
 ## 目录
 
 - [首页](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/README.md)
-- [概述](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/1.%E6%A6%82%E8%BF%B0/summary.md)
+- [概述](https://github.com/sanmaomashi/Salute_Python/tree/main/docs/sections/1.概述.md)
 
-* **环境搭建**
-
-  * [python下载安装](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/2.%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/python%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85.md)
-  * [pycharm下载安装](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/2.%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/pycharm%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85.md)
-* **python基础**
-
-  * [基本语法](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/3.%E5%9F%BA%E7%A1%80/1.%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md)
-  * [变量](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/3.%E5%9F%BA%E7%A1%80/2.%E5%8F%98%E9%87%8F.md)
-  * [数据类型](3.基础/3.数据类型.md)
-  * [运算符](3.基础/4.运算符.md)
-  * [程序控制](3.基础/5.程序控制.md)
-  * [函数](3.基础/6.函数.md)
+* [环境搭建](https://github.com/sanmaomashi/Salute_Python/tree/main/docs/sections/2.环境搭建.md)
+* [基本语法](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/3.%E5%9F%BA%E7%A1%80/1.%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md)
+* [变量](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/3.%E5%9F%BA%E7%A1%80/2.%E5%8F%98%E9%87%8F.md)
+* [数据类型](3.基础/3.数据类型.md)
+* [运算符](3.基础/4.运算符.md)
+* [程序控制](3.基础/5.程序控制.md)
+* [函数](3.基础/6.函数.md)
 
 
 
