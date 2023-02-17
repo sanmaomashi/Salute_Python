@@ -8,10 +8,6 @@
 </div>
 
 
-
-
-
-
 ## 简介
 
 Python 从入门到跑路
@@ -25,20 +21,6 @@ Python 从入门到跑路
 本仓库没有任何商业目的，如果认为侵犯了您的版权，请来信告知。
 
 本仓库不能完全保证内容的正确性。通过使用本仓库内容带来的风险与本人无关。
-
-
-
-## 本地运行
-
-1. 安装[Docsify](https://github.com/docsifyjs/docsify/)
-2. 克隆[项目](https://github.com/sanmaomashi/Salute_Python)
-3. 进入项目根目录执行
-
-```bash
-docsify serve docs
-```
-
-4. 浏览器输入http://localhost:3000/#/ ，访问项目
 
 
 
@@ -59,6 +41,8 @@ docsify serve docs
   * [运算符](3.基础/4.运算符.md)
   * [程序控制](3.基础/5.程序控制.md)
   * [函数](3.基础/6.函数.md)
+
+
 
 ## 在线阅读
 
