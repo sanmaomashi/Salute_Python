@@ -28,8 +28,8 @@ Python 从入门到跑路
 
 - [首页](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/README.md)
 - [概述](https://github.com/sanmaomashi/Salute_Python/tree/main/docs/sections/1.概述.md)
+- [环境搭建](https://github.com/sanmaomashi/Salute_Python/tree/main/docs/sections/2.环境搭建.md)
 
-* [环境搭建](https://github.com/sanmaomashi/Salute_Python/tree/main/docs/sections/2.环境搭建.md)
 * [基本语法](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/3.%E5%9F%BA%E7%A1%80/1.%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md)
 * [变量](https://github.com/sanmaomashi/Salute_Python/blob/main/docs/3.%E5%9F%BA%E7%A1%80/2.%E5%8F%98%E9%87%8F.md)
 * [数据类型](3.基础/3.数据类型.md)
