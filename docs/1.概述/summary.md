@@ -1,0 +1,274 @@
+# 概述
+
+?>人生苦短，我用 Python —— Life is short, you need Python
+
+## 一、认识python
+
+### 1. Python的起源
+
+Python 的创始人为吉多·范罗苏姆（Guido van Rossum）
+
+![img](https://raw.githubusercontent.com/SaluteGF/Salute_Python/main/img/9.jpg)
+
+1982年，Guido从阿姆斯特丹大学获得了数学和计算机硕士学位，尽管他算得上是一位数学家，但他更加享受计算机带来的乐趣。
+
+在他所生活的那个年代的编程语言，比如Pascal、C、Fortran等语言，其设计的基本原则是让机器运行的更快。当然，这样的语言对于编写程序的人来说，肯定是不够友好的，Guido希望有一种语言，这种语言能够像C语言那样，能够全面调用计算机的功能接口，又可以像shell那样，可以轻松的编程。
+
+1989年的圣诞节期间，吉多范罗苏姆为了在阿姆斯特丹打发时间，决心开发一个新的解释程序，作为ABC语言的一种继承，1991年，第一个Python解释器诞生了，听起来是不是很传奇?之所以选中Python（蟒蛇）作为程序的名字，是因为他是BBC电视剧--蒙提派森的飞行马戏团（Monty Python’s Flying Circus）的爱好者。
+
+### 2. Python的设计目标
+
+1999 年，吉多·范罗苏姆向 DARPA 提交了一条名为 “Computer Programming for Everybody” 的资金申请，并在后来说明了他对 Python 的目标：
+
+- 一门简单直观的语言并与主要竞争者一样强大
+- 开源，以便任何人都可以为它做贡献
+- 代码像纯英语那样容易理解
+- 适用于短期开发的日常任务
+
+这些想法中的基本都已经成为现实，Python 已经成为一门流行的编程语言
+
+### 3. Python的设计哲学
+
+- 优雅
+- 明确
+- 简单
+
+Python 开发者的哲学是：用一种方法，最好是只有一种方法来做一件事
+
+如果面临多种选择，Python 开发者一般会拒绝花俏的语法，而选择明确没有或者很少有歧义的语法
+
+在 Python 社区，吉多被称为“仁慈的独裁者”
+
+在Python解释器下输入
+
+```python
+import this
+```
+
+会出来这样一首小诗：
+
+```text
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+```
+
+- `Beautiful is better than ugly`
+
+整齐、易读胜过混乱、晦涩
+
+- `Simple is better than complex`
+
+简约胜过复杂
+
+- `Complex is better than complicated`
+
+复杂胜过晦涩
+
+- `Flat is better than nested`
+
+扁平胜过嵌套
+
+- `Now is better than never.`
+- `Although never is often better than right now.`
+
+先行动起来，编写行之有效的代码，不要企图一开始就编写完美无缺的代码
+
+做比不做要好，但是盲目的不加思考的去做还不如不做
+
+- `If the implementation is hard to explain, it's a bad idea.`
+- `If the implementation is easy to explain, it may be a good idea.`
+
+如果方案很难解释，很可能不是有一个好的方案，反之亦然
+
+### 4. 为什么选择 Python？
+
+- 代码量少
+- ……
+
+同一样问题，用不同的语言解决，代码量差距还是很多的，一般情况下 Python 是 Java 的 1/5，所以说 人生苦短，我用 Python
+
+#### Python特点
+
+1. Python 是完全面向对象的语言
+
+   函数、模块、数字、字符串都是对象
+
+   在 Python 中一切皆对象完全支持继承、重载、多重继承支持重载运算符，也支持泛型设计 
+
+2. Python 拥有一个强大的标准库
+
+   Python 语言的核心只包含 数字、字符串、列表、字典、文件等常见类型和函数，而由 Python 标准库提供了系统管理、网络通信、文本处理、数据库接口、图形系统、XML 处理等额外的功能
+
+3. Python 社区提供了大量的第三方模块，使用方式与标准库类似。它们的功能覆盖科学计算、人工智能、机器学习、Web 开发、数据库接口、图形系统多个领域
+
+4. 面向对象的思维方式
+
+- 面向对象是一种思维方式，也是一门程序设计技术
+- 要解决一个问题前，首先考虑由谁来做，怎么做事情是谁的职责，最后把事情做好就行！
+- 对象就是谁
+- 要解决复杂的问题，就可以找多个不同的对象，各司其职，共同实现，最终完成需求
+
+#### Python的优缺点
+
+- 优点
+
+  - 简单、易学
+  - 免费、开源
+  - 面向对象
+  - 丰富的库
+  - 可扩展性
+  - 如果需要一段关键代码运行得更快或者希望某些算法不公开，可以把这部分程序用 C 或 C++ 编写，然后在 Python 程序中使用它们
+
+- 缺点
+
+  - 运行速度
+  - 国内市场较小
+  - 中文资料匮乏
+
+
+## 二、编译器和解释器
+
+计算机不能直接理解任何除机器语言以外的语言，所以必须要把程序员所写的程序语言翻译成机器语言，计算机才能执行程序。将其他语言翻译成机器语言的工具，被称为编译器
+
+编译器翻译的方式有两种：一个是编译，另外一个是解释。两种方式之间的区别在于翻译时间点的不同。当编译器以解释方式运行的时候，也称之为解释器
+
+![001_编译型和解释型语言工作对比-w360](https://raw.githubusercontent.com/SaluteGF/Salute_Python/main/img/10.jpg)
+
+### 1. 编译型语言
+
+程序在执行之前需要一个专门的编译过程，把程序编译成为机器语言的文件，运行时不需要重新翻译，直接使用编译的结果就行了。程序执行效率高，依赖编译器，跨平台性差些。如 C、C++，缺点不能跨平台，开发速度慢（将代码一次性全部转化成字节码）
+
+### 2. 解释型语言
+
+解释型语言编写的程序不进行预先编译，以文本方式存储程序代码，会将代码一句一句直接运行。在发布程序时，看起来省了道编译工序，但是在运行程序的时候，必须先解释再运行
+
+优点：开发效率高，便于调试，可以跨平台
+
+缺点：执行速度相对低（代码从上至下逐行解释）
+
+Python解释器 Cpython，Jpython，Ironpython，pypy…
+
+### 3. 编译型语言和解释型语言对比
+
+- 速度 —— 编译型语言比解释型语言执行速度快
+- 跨平台性 —— 解释型语言比编译型语言跨平台性好
+
+## 三、程序运行原理
+
+### 1. 计算机中的三大件
+
+计算机中包含有较多的硬件，但是一个程序要运行，有三个核心的硬件，分别是：
+
+1. `CPU`
+
+   - 中央处理器，是一块超大规模的集成电路
+
+   - 负责处理数据／计算（负责执行程序）
+
+2. `内存`
+
+   - 临时存储数据（断电之后，数据会消失）
+
+   - 速度快
+   - 空间小（单位价格高）
+   - 内存条通常只有 4G / 8G / 16G / 32G
+
+3. `硬盘`
+
+   - 永久存储数据
+
+   - 速度慢
+   - 空间大（单位价格低）
+   - 程序安装在硬盘中
+
+
+|                             CPU                              |                             内存                             |                             硬盘                             |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![CPU-w200](https://raw.githubusercontent.com/SaluteGF/Salute_Python/main/img/11.jpg) | ![内存条-w200](https://raw.githubusercontent.com/SaluteGF/Salute_Python/main/img/12.jpg) | ![硬盘-w200](https://raw.githubusercontent.com/SaluteGF/Salute_Python/main/img/13.jpg) |
+
+### 2. 程序执行的原理
+
+![001_程序执行示意图-w](https://raw.githubusercontent.com/SaluteGF/Salute_Python/main/img/14.jpg)
+
+1. 程序运行之前，程序是保存在硬盘中的
+2. 当要运行一个程序时,操作系统会首先`让CPU把程序复制到内存`中
+3. CPU执行内存中的程序代码
+
+- Python程序执行原理
+
+![003_Python程序执行示意图](https://raw.githubusercontent.com/SaluteGF/Salute_Python/main/img/15.jpg)
+
+1. 操作系统会首先让 CPU 把Python 解释器的程序复制到内存中
+2. Python 解释器根据语法规则，从上向下让 CPU 翻译 Python 程序中的代码
+3. CPU 负责执行翻译完成的代码
+
+- Python 的解释器有多大？
+
+  执行以下终端命令可以查看 Python 解释器的大小
+
+```bash
+# 1. 确认解释器所在位置
+which python
+# 2. 查看 python 文件大小(只是一个软链接)
+ls -lh /usr/bin/python
+# 3. 查看具体文件大小
+ls -lh /usr/bin/python2.7
+```
+
+提示：建立软链接的目的，是为了方便使用者不用记住使用的解释器是哪一个具体版本
+
+### 3. 程序的作用
+
+?>程序就是用来处理数据的，而变量就是用来存储数据的
+
+- 新闻软件提供的新闻内容、评论……是数据
+- 电商软件提供的商品信息、配送信息…… 是数据
+- 运动类软件提供的运动数据…… 是数据
+- 地图类软件提供的地图信息、定位信息、车辆信息…… 是数据
+- 即时通讯软件提供的聊天信息、好友信息……是数据
+- ……
+
+## 四、Python 2.x 与 3​​.x 版本
+
+目前市场上有两个 Python 的版本并存着，分别是 `Python 2.x` 和 `Python 3.x`
+
+> 新的 Python 程序建议使用 `Python 3.0` 版本的语法
+
+* Python 2.x 是 **过去的版本**
+  * 解释器名称是 **python**
+* Python 3.x 是 **现在和未来主流的版本**
+  * 解释器名称是 **python3**
+  * 相对于 `Python` 的早期版本，这是一个**较大的升级**
+  * 为了不带入过多的累赘，`Python 3.0` 在设计的时候 **没有考虑向下兼容**
+    * 许多早期 `Python` 版本设计的程序都无法在 `Python 3.0` 上正常执行
+  * Python 3.0 发布于 **2008 年**
+  * 到目前为止，Python 3.0 的稳定版本已经有很多年了
+    * Python 3.3 发布于 2012
+    * Python 3.4 发布于 2014
+    * Python 3.5 发布于 2015
+    * Python 3.6 发布于 2016
+* 为了照顾现有的程序，官方提供了一个过渡版本 —— **Python 2.6**
+  * 基本使用了 `Python 2.x` 的语法和库
+  * 同时考虑了向 `Python 3.0` 的迁移，**允许使用部分** `Python 3.0` 的语法与函数
+  * 2010 年中推出的 `Python 2.7` 被确定为 **最后一个Python 2.x 版本**
+
+!>提示：如果开发时，无法立即使用 Python 3.0（还有极少的第三方库不支持 3.0 的语法），建议先使用 `Python 3.0` 版本进行开发,然后使用 `Python 2.6`、`Python 2.7` 来执行，并且做一些兼容性的处理
